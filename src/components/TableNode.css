@@ -1,0 +1,26 @@
+
+.table {
+  background-color: #fff;
+}
+
+.table__name {
+  font-weight: bold;
+  text-align: center;
+  padding: 8px;
+  border-radius: 4px 4px 0 0;
+  background-color: rgb(145, 196, 242);
+}
+
+.table__columns {
+  border: 1px solid #CBD2D9;
+  border-radius: 0 0 4px 4px;
+}
+.column-name {
+  position: relative;
+  padding: 8px;
+  line-height: 1;
+  cursor: pointer;
+}
+.column-name:hover {
+  background-color: #EFEFEF;
+}
